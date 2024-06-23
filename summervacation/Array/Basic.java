@@ -34,4 +34,5 @@ public class Basic {
         System.out.println("The count will be " + count);
         System.out.println("Max number is "+ ans);
         System.out.println("The index of search is "+ search);
+        System.out.println("This is my first code to be posted on github ");
 }}
