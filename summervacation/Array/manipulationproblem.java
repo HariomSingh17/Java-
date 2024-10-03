@@ -60,49 +60,49 @@ public class manipulationproblem {
     public static void main(String[] args) {
         
     
-    //Array manipulation ?? --Find num which are not get  duplicate :>
-int array [] ={1,2,3,4,1,2,3};
-int noduplicatenumber=0;
+//     //Array manipulation ?? --Find num which are not get  duplicate :>
+// int array [] ={1,2,3,4,1,2,3};
+// int noduplicatenumber=0;
 
-for(int i=0; i<array.length; i++){
-for(int j=i+1; j<array.length; j++){
-    if(array[i]==array[j]){
-        array[i]=-1;
-        array[j]=-1;//mark kar rha hu -1 se taki jo num bache mai usko print kara lu fhor se loop chla ke 
-    }
+// for(int i=0; i<array.length; i++){
+// for(int j=i+1; j<array.length; j++){
+//     if(array[i]==array[j]){
+//         array[i]=-1;
+//         array[j]=-1;//mark kar rha hu -1 se taki jo num bache mai usko print kara lu fhor se loop chla ke 
+//     }
 
-}
+// }
 
-}
-for(int l =0; l<array.length; l++){
-if(array[l]>0){
-noduplicatenumber=array[l];
-}       
-    }
-    System.out.println("The number which is not get duplicate is "+noduplicatenumber);
-//second hoghest number 
-    int arr[] ={5,6,7,8,9};
-    int mx = Integer.MIN_VALUE;
-    for(int i =0; i<arr.length; i++){
-        if(arr[i]>mx){
-            mx=arr[i];
+// }
+// for(int l =0; l<array.length; l++){
+// if(array[l]>0){
+// noduplicatenumber=array[l];
+// }       
+//     }
+//     System.out.println("The number which is not get duplicate is "+noduplicatenumber);
+// //second hoghest number 
+//     int arr[] ={5,6,7,8,9};
+//     int mx = Integer.MIN_VALUE;
+//     for(int i =0; i<arr.length; i++){
+//         if(arr[i]>mx){
+//             mx=arr[i];
 
-        }
-    }
-System.out.println(mx); // first highest number 
+//         }
+//     }
+// System.out.println(mx); // first highest number 
 
-    for (int i=0; i<arr.length; i++){
-        if(arr[i]==mx){
-            arr[i]=Integer.MIN_VALUE;// first highest ko update karke -infinity kar deye 
-        }
-    } // from here we can get second highest  number
-    int secondhighest=Integer.MIN_VALUE;
-    for (int i=0; i<arr.length; i++){
-        if(arr[i]>secondhighest){
-            secondhighest=arr[i];
-        }
-    }
-System.out.println(secondhighest);
+//     for (int i=0; i<arr.length; i++){
+//         if(arr[i]==mx){
+//             arr[i]=Integer.MIN_VALUE;// first highest ko update karke -infinity kar deye 
+//         }
+//     } // from here we can get second highest  number
+//     int secondhighest=Integer.MIN_VALUE;
+//     for (int i=0; i<arr.length; i++){
+//         if(arr[i]>secondhighest){
+//             secondhighest=arr[i];
+//         }
+//     }
+// System.out.println(secondhighest);
 
 //Swap using temp :
 int a =5;
@@ -110,26 +110,26 @@ int b=4;
 swapusingtemp(a, b);
 
 //reverse the array ::
- int array1[]={1,2,3,4,5};
- int ans []= reversethearray1(array1); 
- // we will store that array in another array in way to iterate it 
- for (int i =0; i<ans.length; i++){
-    System.out.print(ans[i] +" ");
- }
- // reversing the rray with method 2::
- int method2[] ={6,7,8,9};
- for(int i =0; i<method2.length; i++){
-    System.out.println(method2[i] + " ");
- }
+//  int array1[]={1,2,3,4,5};
+//  int ans []= reversethearray1(array1); 
+//  // we will store that array in another array in way to iterate it 
+//  for (int i =0; i<ans.length; i++){
+//     System.out.print(ans[i] +" ");
+//  }
+//  // reversing the rray with method 2::
+//  int method2[] ={6,7,8,9};
+//  for(int i =0; i<method2.length; i++){
+//     System.out.println(method2[i] + " ");
+//  }
  
 // rotate the given array by K step where k is non negative number without using extra space ::
-int original[] ={1,2,3,4,5};
+// int original[] ={1,2,3,4,5};
 Scanner sc = new Scanner(System.in);
-int k = sc.nextInt();
-rotatearraybyk(original, k);
-for(int i =0 ; i<original.length; i++){
-    System.out.print(original[i]+" ");
-}
+// int k = sc.nextInt();
+// rotatearraybyk(original, k);
+// for(int i =0 ; i<original.length; i++){
+//     System.out.print(original[i]+" ");
+// }
 
 // Check numbers if it is present in array or not >>
    int arrx[] ={100 , 2 , 67};
